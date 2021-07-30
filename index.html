@@ -6,11 +6,23 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel ="stylesheet" type="text/css" href="style.css">
+    <link rel ="stylesheet" type="text/css" href="resource/data/fontawesome-free-5.15.3-web/fontawesome-free-5.15.3-web/css/all.min.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    
+    <style>
+      .jumbotron{
+    background-color:#1ECBF4 !important;
+    color:#ffff;
+      }
+      .navbar{
+        background-color: blue;
+      }
+      .bg-danger{
+      background-color: #1ECBF4 !important;
+  }
+    </style>
   </head>
-  <body>
+  <body data-spy="scroll" data-target="#navbar-example3" data-offset="0">
     
     <!--
                                       BOOTSTRAP - COLLAPSE
@@ -167,10 +179,271 @@
       </div>
     </div>
     -->
+    <nav id="navbar-example3" class="navbar navbar-expand-md navbar-light  bg-danger fixed-top">
+      <div class="navbar-brand">
+        <span><strong>Logo</strong></span>
+      </div>
+       <button  class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button> 
+      
+      <div class="collapse navbar-collapse nav justify-content-end" id ="menu">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" href="#about">Giới Thiệu</a></li>
+          <li class="nav-item"><a class="nav-link" href="#dichvu">Dịch Vụ</a></li>
+          <li class="nav-item"><a class="nav-link" href="#duan">Dự Án</a></li>
+          <li class="nav-item"><a class="nav-link" href="#gia">Giá</a></li>
+          <li class="nav-item"><a class="nav-link" href="#lienhe">Liên Hệ</a></li>
+        </ul>
+      </div>
+    </nav>
     <div class="jumbotron text-center">
       <h1> MYCLAS.VN</h1>
       <p>Đội ngũ trẻ - Giàu tâm huyết</p>
+      <form  class="form-inline  justify-content-center" >
+        <input type="email" class="form-control" name="email" size="50 " placeholder="Nhâp địa chỉ email của bạn" >
+        <button type="button" class="btn btn-danger" name="button" style="margin:50px 0 0;">Đăng kí theo dõi</button>
+      </form>
     </div>
+    <div class="container-fluid">
+      <div id="about" class='row'>
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+          <h2 >Giới thiệu myclass.vn</h2>
+          <br> <h4>Myclass.vn- Bên cạnh sản phẩm tâm huyết-Hệ thống dạy lập trình trực tuyến myclass.vn chúng tôi mang lại.....</h4>
+          <br><p>Chúng tôi cam kết đến những sản phẩm chất lượng cao nhất, hiện đại nhất, thân thiện nhất với người dùng và myclass.vn đánh giá cao ....</p>
+          <br><button class="btn btn-primary btn-lg">Liên hệ với chúng tôi</button>
+        </div>
+       <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <i class="fas fa-chart-bar k "></i>
+       </div>
+      </div>
+     
+    </div>
+    <div class="container-fluid bg-grey">
+      <div class="row">
+        <div class="col-sm-4 ">
+          <i class="fas fa-coins k "></i>
+        </div>
+        <div class="col-sm-8 gt">
+          <h2>Giá trị myclass.vn</h2>
+          <br><h4><strong>Myclass.vn</strong> Bên cạnh sản phẩm tâm huyết-Hệ thống dạy lập trình trực tuyến myclass.vn chúng tôi mang lại.....</h4>
+          <br> <p>Chúng tôi cam kết đến những sản phẩm chất lượng cao nhất, hiện đại nhất, thân thiện nhất với người dùng và myclass.vn đánh giá cao ....</p>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid text-center">
+      <h2 id="dichvu" >Dịch vụ</h2>
+      <br><p>Các dịch vụ của chúng tôi bao gồm</p>
+      <div class="row slideanim"> 
+        <div class="col-sm-4">
+          <i class="fab fa-bluetooth logo"></i>
+          <h3>Elearing-Framework</h3>
+          <br><p>Phần mềm khung dạy trực tuyến</p>
+        </div>
+        <div class="col-sm-4">
+          <i class="fab fa-bluetooth logo"></i>
+          <h3>Phát triển website</h3>
+          <br><p>Phần mềm khung dạy trực tuyến</p>
+        </div>
+        <div class="col-sm-4">
+          <i class="fab fa-bluetooth logo"></i>
+          <h3>Elearing-Framework</h3>
+          <br><p>Phần mềm khung dạy trực tuyến</p>
+        </div>
+      </div>
+
+      <div class="row slideanim" >
+        <div class="col-sm-4">
+          <i class="fab fa-bluetooth logo"></i>
+          <h3>Elearing-Framework</h3>
+          <br><p>Phần mềm khung dạy trực tuyến</p>
+        </div>
+        <div class="col-sm-4">
+          <i class="fab fa-bluetooth logo"></i>
+          <h3>Phát triển website</h3>
+          <br><p>Phần mềm khung dạy trực tuyến</p>
+        </div>
+        <div class="col-sm-4">
+          <i class="fab fa-bluetooth logo"></i>
+          <h3>Elearing-Framework</h3>
+          <br><p>Phần mềm khung dạy trực tuyến</p>
+        </div>
+      </div>
+    </div>
+    <div  class="container-fluid bg-grey text-center">
+      <h2 id="duan">Dự án tiêu biểu</h2>
+      <br><h4>Một trong những dự án website myclass.vn đã triển khai </h4>
+      <div class="row text-center slideanim">
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <div class="thumbnail">
+            <img src="img/Cute Girls (359).jpg" alt="" style="width:300px;height:300px;">
+            <p><strong>Dự án 1</strong></p>
+            <p>Dự án web 1</p>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <div class="thumbnail">
+            <img src="img/Cute Girls (359).jpg" alt="" style="width:300px;height:300px;">
+            <p><strong>Dự án 2</strong></p>
+            <p>Dự án web 2</p>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <div class="thumbnail">
+            <img src="img/1.jpg" alt="" style="width:300px;height:300px;">
+            <p><strong>Dự án 2</strong></p>
+            <p>Dự án web 2</p>
+          </div>
+        </div>
+      </div>
+        <div id="demo" class="carousel slide text-center " data-ride="carousel">
+          <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1" ></li>
+            <li data-target="#demo" data-slide-to="2" ></li>
+          </ul>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+             <h4>Cảm ơn myclass.vn đã mang lại những khóa học tuyệt vời</h4>
+            <br><p>Hi vọng sẽ gặp lại các bạn vào các khóa cao hơn</p>
+            </div>
+            <div class="carousel-item ">
+              <h4>đã mang lại những khóa học tuyệt vời</h4>
+             <br><p>Hi vọng sẽ gặp lại các bạn vào các khóa cao hơn</p>
+             </div>
+             <div class="carousel-item ">
+              <h4> myclass.vn đã mang lại những khóa học tuyệt vời mang lại những khóa học tuyệt vời</h4>
+             <br><p>Hi vọng sẽ gặp lại các bạn vào các khóa cao hơn</p>
+             </div>
+          </div>
+          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+      </div>      
+    </div>
+    <div class="container-fluid bg-grey text-center">
+      <h2 id="gia" >Bảng giá</h2>
+      <br><h4>Chọn giá mà bạn muốn xây dựng website</h4>
+      <div class="row">
+        <div class="col-sm-4 col-xs-12 col-md-4 col-lg-4">
+          <div class="panel panel-default text-center">
+            <div class="panel-heading">
+              <h1>Cơ bản</h1>
+            </div>
+            <div class="panel-body">
+              <p><strong>20</strong> abc</p>
+              <p><strong>15</strong> bc</p>
+              <p><strong>2</strong></p>
+              <p><strong>2</strong> sit</p>
+              <p><strong>Endless</strong> Arnet</p>
+            </div>
+            <div class="panel-footer">
+              <h2><strong>$</strong>abc</h2>
+              <p>mỗi tháng</p>
+              <button class="btn btn-primary">Đăng kí</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 col-xs-12 col-md-4 col-lg-4">
+          <div class="panel panel-default text-center">
+            <div class="panel-heading">
+              <h1>Cơ bản</h1>
+            </div>
+            <div class="panel-body">
+              <p><strong>20</strong> abc</p>
+              <p><strong>15</strong> bc</p>
+              <p><strong>2</strong></p>
+              <p><strong>2</strong> sit</p>
+              <p><strong>Endless</strong> Arnet</p>
+            </div>
+            <div class="panel-footer">
+              <h2><strong>$</strong>abc</h2>
+              <p>mỗi tháng</p>
+              <button class="btn btn-primary">Đăng kí</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 col-xs-12 col-md-4 col-lg-4">
+          <div class="panel panel-default text-center">
+            <div class="panel-heading">
+              <h1>Cơ bản</h1>
+            </div>
+            <div class="panel-body">
+              <p><strong>20</strong> abc</p>
+              <p><strong>15</strong> bc</p>
+              <p><strong>2</strong></p>
+              <p><strong>2</strong> sit</p>
+              <p><strong>Endless</strong> Arnet</p>
+            </div>
+            <div class="panel-footer">
+              <h2><strong>$</strong>abc</h2>
+              <p>mỗi tháng</p>
+              <button class="btn btn-primary">Đăng kí</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div  class="container-fluid bg-grey text-center">
+      <h2 id="lienhe">LIÊN HỆ</h2>
+      <div class="row">
+        <div class="col-sm-5 col-xs-12 col-md-5 col-lg-5">
+          <div class="row">
+            <div class="col-sm-12">
+              <h4>Hãy liên hệ với chúng tôi, chúng tôi sẽ trả lời trong vòng 8 giờ</h4>
+              <br> <i class="fas fa-burn logo"></i><span>Hà Nội , Việt Nam</span>
+              <br> <i class="fas fa-envelope logo "></i> <span>0987346323</span>
+              <br> <i class="fas fa-envelope logo"></i> <span>huyen@gmail.com</span>
+            </div>
+          </div>
+         
+        </div>
+        <div class="col-sm-7 col-xs-12 col-md-7 col-lg-7">
+          <form >
+            <div class="row">
+              <div class="col-sm-6">
+                <input type="text" class="form-control" name="Ten" placeholder="Tên">
+              </div>
+              <div class="col-sm-6">
+                <input type="email" class="form-control" name="email" placeholder="Email">
+              </div>
+            </div>
+            <textarea class="form-control" name="comments" id="comments" rows="5" placeholder=" Messenger "></textarea>
+            <div class="row">
+              <div class="col-sm-12">
+                <button class="btn btn-primary submit" type="submit"> Gửi yêu cầu</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer class="container-fluid text-center">
+      <a href="#mypanel" title="To Top"><span class="glyphicon glyphicon-chevron-up"></span></a>
+      <p>Khóa học web với bootstrap tại myclass.vn <a href="https://www.youtube.com/watch?v=33KzQlAmws4&list=PLxF76yfppeZY9Nn90xAAnA04AvzBiS9zA&index=15">Tại đây</a></p>
+    </footer>
+    <!--
+         <script>
+          $(document).ready(function(){
+
+            $(window).scroll(function(){
+              $(".slideanim").each(function(){
+                var pos = $(this).offset().top;
+                var winTop = $(window).scrollTop();
+                if(pos  <  winTop +600){
+                  $(this).addClass("slide");
+                }
+              });
+            });
+          })
+        </script>
+    -->
+    
+    
     
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
